@@ -1,0 +1,38 @@
+{
+  "_readme": "Single source of truth for every value shared across client, server and ml-service. Change values ONLY here, in a PR that updates all three services. Never hardcode these strings anywhere else.",
+  "version": 1,
+
+  "roles": ["customer", "agent", "manager"],
+
+  "categories": ["billing", "technical", "account", "refund", "general"],
+
+  "priorities": ["low", "medium", "high", "urgent"],
+
+  "statuses": ["open", "assigned", "in_progress", "waiting_customer", "resolved", "closed"],
+
+  "statusTransitions": {
+    "open": ["assigned", "closed"],
+    "assigned": ["in_progress", "open", "closed"],
+    "in_progress": ["waiting_customer", "resolved", "assigned"],
+    "waiting_customer": ["in_progress", "resolved", "closed"],
+    "resolved": ["closed", "in_progress"],
+    "closed": []
+  },
+
+  "slaHours": {
+    "urgent": 2,
+    "high": 8,
+    "medium": 24,
+    "low": 72
+  },
+
+  "ml": {
+    "predictTimeoutMs": 3000,
+    "minConfidenceForAutoRoute": 0.6,
+    "fallback": {
+      "category": null,
+      "priority": "medium",
+      "needsTriage": true
+    }
+  }
+}
