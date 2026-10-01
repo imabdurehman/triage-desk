@@ -1,7 +1,10 @@
 fastapi==0.115.5
 uvicorn[standard]==0.32.1
 pydantic==2.10.3
-scikit-learn==1.5.2
+scikit-learn==1.6.1
+# scikit-learn 1.6 passes a solver option that SciPy 1.16+ no longer accepts,
+# which floods training output with harmless OptimizeWarnings. 1.15.3 is quiet.
+scipy==1.15.3
 pandas==2.2.3
 joblib==1.4.2
 pytest==8.3.4
