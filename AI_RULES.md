@@ -31,18 +31,19 @@ like one team wrote it.
 - Start simple: TF-IDF + Logistic Regression. Do not introduce BERT or any
   transformer unless the baseline is measured and shown insufficient.
 - The frozen test set in `data/test/` is never trained on and never edited.
-- A new model version is promoted only if its macro F1 on the frozen test set
-  beats the current one. Record the run either way.
+- A new model version is promoted only if its category macro F1 on the frozen
+  test set is at least the live model's. Record the run either way.
 
 ## Client (React)
 - Functional components and hooks only.
 - API calls live in `services/`. Components never call `fetch`/`axios` directly.
-- Role-based routing through `RoleRoute`. Never hide a page with CSS alone;
+- Role-based routing through `RequireRole`. Never hide a page with CSS alone;
   the server enforces permissions, the client only mirrors them.
 - Display labels derived from contract values, e.g. `in_progress` → "In Progress".
 
 ## Git
-- Branch per feature, as listed in README. Never commit to `main` directly.
+- One branch per feature, from `develop`: `feature/*` → `develop` → `main`.
+  Never commit to `main` directly.
 - Commit messages: `feat:`, `fix:`, `test:`, `docs:`, `refactor:`.
 - One PR per feature. Another team member reviews before merge.
 - Never commit `.env`, trained model binaries, or raw datasets.
