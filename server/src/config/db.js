@@ -5,7 +5,7 @@ export async function connectDB(uri = env.mongoUri) {
   mongoose.set("strictQuery", true);
   await mongoose.connect(uri, { serverSelectionTimeoutMS: 10_000 });
   console.log(
-    `[db] connected to ${mongoose.connection.host}/${mongoose.connection.name}`,
+    `[db] connected to : ${mongoose.connection.host}/${mongoose.connection.name}`,
   );
   return mongoose.connection;
 }
