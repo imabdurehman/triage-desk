@@ -8,9 +8,7 @@
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",
     "test": "node --test \"test/**/*.test.js\"",
-    "create-manager": "node scripts/createManager.js",
-    "seed:demo": "node scripts/seedDemo.js",
-    "seed:demo:reset": "node scripts/seedDemo.js --reset"
+    "create-manager": "node scripts/createManager.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -23,9 +21,6 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.8.0",
     "morgan": "^1.10.0",
-    "multer": "^2.4.0",
-    "node-cron": "^4.6.0",
-    "nodemailer": "^10.0.13",
     "zod": "^3.23.8"
   },
   "devDependencies": {
