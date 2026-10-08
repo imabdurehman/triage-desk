@@ -1,6 +1,7 @@
 // Integration tests: run the full auth flow against a real MongoDB.
-// Skipped unless MONGO_URI_TEST is set. That database is WIPED before the run,
-// so never point it at a database you care about.
+// Skipped unless MONGO_URI_TEST is set. This file uses its own database, named
+// after the one in MONGO_URI_TEST plus "_auth" (triagedesk_test_auth), and WIPES
+// it before and after the run, so never point it at data you care about.
 import 'dotenv/config'; // lets MONGO_URI_TEST come from server/.env
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
@@ -10,6 +11,10 @@ import mongoose from 'mongoose';
 process.env.NODE_ENV = 'test';
 const uri = process.env.MONGO_URI_TEST;
 const skip = !uri && 'set MONGO_URI_TEST to run integration tests';
+// Node runs test files at the same time, each in its own process. If they shared
+// one database, one file's dropDatabase() would delete the other file's users
+// mid-run (seen as 401 ACCOUNT_INACTIVE). So each integration file uses its own.
+const dbName = `${uri?.split('?')[0].split('/')[3] || 'triagedesk_test'}_auth`;
 
 const { createApp } = await import('../src/app.js');
 const { User } = await import('../src/models/User.js');
@@ -25,7 +30,7 @@ const customer = { name: 'Sara Ahmed', email: 'sara@example.com', password: 'cor
 
 before(async () => {
   if (skip) return;
-  await mongoose.connect(uri);
+  await mongoose.connect(uri, { dbName });
   await mongoose.connection.dropDatabase();
   await User.init(); // builds the unique email index before tests rely on it
 });

@@ -1,6 +1,8 @@
 // Integration tests for tickets, users, the manager API and the scheduled jobs,
-// run against a real MongoDB. Skipped unless MONGO_URI_TEST is set; that
-// database is WIPED before the run. The ML service is replaced by a fake fetch.
+// run against a real MongoDB. Skipped unless MONGO_URI_TEST is set. This file
+// uses its own database, named after the one in MONGO_URI_TEST plus "_tickets"
+// (triagedesk_test_tickets), and WIPES it before and after the run.
+// The ML service is replaced by a fake fetch.
 import 'dotenv/config';
 import { test, before, after, beforeEach, mock } from 'node:test';
 import assert from 'node:assert/strict';
@@ -16,6 +18,10 @@ process.env.UPLOAD_DIR = uploadDir;
 process.env.MAX_OPEN_TICKETS = '3';
 const uri = process.env.MONGO_URI_TEST;
 const skip = !uri && 'set MONGO_URI_TEST to run integration tests';
+// Node runs test files at the same time, each in its own process. If they shared
+// one database, one file's dropDatabase() would delete the other file's users
+// mid-run (seen as 401 ACCOUNT_INACTIVE). So each integration file uses its own.
+const dbName = `${uri?.split('?')[0].split('/')[3] || 'triagedesk_test'}_tickets`;
 
 const { createApp } = await import('../src/app.js');
 const { User } = await import('../src/models/User.js');
@@ -83,7 +89,7 @@ const createTicket = (key = 'cust1', body = ticketBody) =>
 const users = {};
 before(async () => {
   if (skip) return;
-  await mongoose.connect(uri);
+  await mongoose.connect(uri, { dbName });
   await mongoose.connection.dropDatabase();
   await User.init();
   users.manager = await makeUser('manager', { name: 'Maya', email: 'maya@x.com', role: 'manager' });
