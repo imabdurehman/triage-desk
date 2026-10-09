@@ -1,0 +1,295 @@
+subject,body,category,priority,source
+Refund not received,"Hello support, The refund for invoice 8841 still has not reached my card. Not important, just curious. Thank you.",refund,low,seed
+Refund request,"Hello, I would like a refund of Rs 1,250 for order #90177, it did not work for me. This is blocking my work today. Please help.",refund,high,seed
+Charged twice this month,"Hello, I was charged Rs 1,250 twice for the mobile app. Please check order 48213. It is affecting several of our users.",billing,high,seed
+Delete my account,"Hello, Please change the email address linked to my account. Regards.",account,medium,seed
+Change the email on my account,"Hi, The verification code for two-factor login is not reaching me. No rush on this.",account,low,seed
+Cancel and refund please,"Dear team, We are losing sales every minute. The refund for invoice 8841 still has not reached my card.",refund,urgent,seed
+How does the team plan work,"Hi team, Do you offer student or non-profit discounts? Please help.",general,high,seed
+Change the email on my account,"Hello support, My account got locked after a few login attempts on my laptop. This is blocking my work today.",account,high,seed
+Feedback on the app,"Hello support, Production is down right now. Does my account support the chat widget? I could not find it in the docs. Thanks.",general,urgent,seed
+Question about my bill,"Hello, I was charged $240 twice for the desktop app. Please check transaction 66402. Thanks in advance.",billing,medium,seed
+Suggestion,"Dear team, It would be great if notifications also worked on my Samsung phone.",general,medium,seed
+Delete my account,"Hello, The verification code for two-factor login is not reaching me. Thanks in advance.",account,medium,seed
+Payment failed but money deducted,I was charged $75 twice for our team workspace. Please check order 48213. This is blocking my work today. Thanks in advance.,billing,high,seed
+Page not loading,the calendar sync has stopped working since the last update on my iPhone.,technical,medium,seed
+Refund not received,"Please refund $240, I was not satisfied with the API. This is blocking my work today. Please help.",refund,high,seed
+Update my profile name,"Hello support, We are losing sales every minute. I want to close my account and remove my data. Thank you.",account,urgent,seed
+Invoice does not match plan,"Hi team, URGENT: I cancelled the Business plan but was still billed Rs 1,250 this month.",billing,urgent,seed
+Refund not received,The refund for order #31275 still has not reached my card. It is affecting several of our users. Thanks.,refund,high,seed
+Payment failed but money deducted,I was charged $75 twice for the iOS app. Please check order 77120. It is affecting several of our users. Thank you.,billing,high,seed
+Refund request,"Hi, I would like a refund of $75 for invoice 8841, it did not work for me. Just a quick question. Thank you.",refund,low,seed
+Charged twice this month,"Hello support, My invoice shows Rs 1,250 but my plan should cost less. Thanks in advance.",billing,medium,seed
+Update my profile name,"Dear team, My account got locked after a few login attempts on my iPad. Please help.",account,medium,seed
+Feedback on the app,"Hello support, It would be great if exports also worked on my Samsung phone.",general,high,seed
+Refund request,"Hi, I cancelled within the trial period and expect a full refund of Rs 7,500. Thanks.",refund,medium,seed
+Login page shows an error,my account crashes every time I open the search on my iPhone.,technical,medium,seed
+Feedback on the app,"Dear team, How many users can we add on the Android app? Regards.",general,medium,seed
+Charged twice this month,"Hi, I cancelled the Business plan but was still billed $120 this month. Regards.",billing,medium,seed
+Error when exporting,the starter plan crashes every time I open PDF downloads on Firefox. Thanks in advance.,technical,low,seed
+Two-factor code not arriving,"Hi team, My account got locked after a few login attempts on Edge. Thanks in advance.",account,low,seed
+Invoice does not match plan,"Hi, My invoice shows $240 but my plan should cost less. This is blocking my work today. Thanks in advance.",billing,high,seed
+Card charged after cancelling,"Hi team, I was charged Rs 4,999 twice for the iOS app. Please check invoice 8841.",billing,urgent,seed
+How does the team plan work,Does the mobile app support two-factor login? I could not find it in the docs. Regards.,general,urgent,seed
+Page not loading,"Hi team, the web portal crashes every time I open file uploads on my iPhone.",technical,high,seed
+Do you offer a discount,"Hi team, How many users can we add on the Pro plan?",general,medium,seed
+How does the team plan work,"Hi, Does the web portal support invoices? I could not find it in the docs. Please help.",general,medium,seed
+Question about my bill,My invoice shows $75 but my plan should cost less. Regards.,billing,medium,seed
+Delete my account,"Hi, The verification code for two-factor login is not reaching me. I need this sorted today. Thank you.",account,high,seed
+Want my money back,"I would like a refund of Rs 7,500 for invoice 3312, it did not work for me. Please look at this as soon as possible. Thank you.",refund,high,seed
+Change the email on my account,"Hello, Please change the email address linked to my account. Thank you.",account,medium,seed
+Refund request,"Please refund Rs 1,250, I was not satisfied with the Business plan. Just a quick question.",refund,low,seed
+Do you offer a discount,"Dear team, Do you offer student or non-profit discounts? Not important, just curious. Thanks.",general,low,seed
+Locked out of my account,"Dear team, We are losing sales every minute. My account got locked after a few login attempts on Edge. Regards.",account,urgent,seed
+Suggestion,"Hi team, Do you offer student or non-profit discounts? Regards.",general,high,seed
+Feedback on the app,"Hello, How many users can we add on the mobile app? Thanks in advance.",general,medium,seed
+Refund request,"Hi, The refund for invoice 3312 still has not reached my card.",refund,medium,seed
+Error when exporting,the desktop app crashes every time I open reports on Edge. Please help.,technical,urgent,seed
+Delete my account,"Dear team, The verification code for two-factor login is not reaching me.",account,medium,seed
+Refund request,We are losing sales every minute. You promised a refund for order 48213 two weeks ago and it has not arrived.,refund,urgent,seed
+Locked out of my account,I want to close my account and remove my data. Regards.,account,high,seed
+Locked out of my account,"Hi, Please change the email address linked to my account. Please help.",account,medium,seed
+Card charged after cancelling,"Dear team, The payment failed on the screen but $120 left my account. Thanks in advance.",billing,medium,seed
+Invoice does not match plan,"Hi, I was charged Rs 899 twice for the dashboard. Please check order 77120. Please help.",billing,medium,seed
+App keeps crashing,"Whenever I use the chat widget the app freezes and I have to restart it. Not important, just curious.",technical,low,seed
+Want my money back,"Hi team, The refund for order #31275 still has not reached my card. This is blocking my work today. Thank you.",refund,high,seed
+Cannot upload files,"Hello support, Please fix this immediately. the iOS app crashes every time I open the chat widget on Chrome.",technical,urgent,seed
+Charged twice this month,"Hi team, I cancelled the Android app but was still billed Rs 899 this month.",billing,medium,seed
+Change the email on my account,"Hello support, I cannot log in to the iOS app and the reset email never arrives.",account,medium,seed
+Invoice does not match plan,"Hello, My invoice shows Rs 12,000 but my plan should cost less. No rush on this. Thank you.",billing,low,seed
+Question about my bill,"Dear team, Can you explain the extra charge of $49 on order 48213?",billing,low,seed
+Change the email on my account,"Hi team, Please change the email address linked to my account. Please look at this as soon as possible. Thanks.",account,high,seed
+Want my money back,"I would like a refund of Rs 12,000 for order #31275, it did not work for me. Not important, just curious. Thank you.",refund,low,seed
+Locked out of my account,"Dear team, Please change the email address linked to my account. Please look at this as soon as possible. Thanks.",account,high,seed
+Change the email on my account,"Dear team, The verification code for two-factor login is not reaching me.",account,medium,seed
+Suggestion,Do you offer student or non-profit discounts? I need this sorted today. Regards.,refund,high,seed
+App keeps crashing,"Hello, I get an error message when I try to use file uploads. Not important, just curious. Thank you.",technical,low,seed
+App keeps crashing,the web portal crashes every time I open the calendar sync on Firefox. Thanks.,technical,medium,seed
+Update my profile name,I cannot log in to the starter plan and the reset email never arrives. Thank you.,account,medium,seed
+Sync not working,"Hi team, Whenever I use invoices the app freezes and I have to restart it. Thank you.",technical,urgent,seed
+Question about my bill,The payment failed on the screen but $75 left my account. I need this sorted today. Thanks.,billing,high,seed
+Requesting a refund for order 77120,"Hello support, I cancelled within the trial period and expect a full refund of $19. This is blocking my work today. Thanks in advance.",refund,high,seed
+Error when exporting,"Hi, The page stays blank on Firefox when I open the desktop app. Please help.",technical,medium,seed
+Suggestion,"Dear team, Just wanted to say PDF downloads has been really useful for our team. Thanks in advance.",general,urgent,seed
+Wrong amount on my invoice,"Hi team, I cancelled the Android app but was still billed $120 this month. Please help.",billing,medium,seed
+Delete my account,"Dear team, I want to close my account and remove my data.",account,medium,seed
+Suggestion,"Hi team, Just wanted to say two-factor login has been really useful for our team. It is affecting several of our users. Thank you.",general,high,seed
+Locked out of my account,"Hi team, I cannot log in to the Android app and the reset email never arrives. Regards.",account,high,seed
+Payment failed but money deducted,My invoice shows $120 but my plan should cost less. I need this sorted today. Thank you.,billing,high,seed
+Change the email on my account,"Hi team, This is urgent, our whole team is blocked. I want to close my account and remove my data.",account,urgent,seed
+Error when exporting,Whenever I use the search the app freezes and I have to restart it. Whenever you get a chance.,technical,low,seed
+Do you offer a discount,"Dear team, It would be great if the search also worked on my MacBook.",general,high,seed
+Feedback on the app,"Hello support, How many users can we add on the API? No rush on this. Thanks in advance.",general,low,seed
+Change the email on my account,"Hi team, I want to close my account and remove my data. This is blocking my work today. Please help.",account,high,seed
+Error when exporting,"Hi, the iOS app crashes every time I open invoices on my laptop. Not important, just curious. Please help.",technical,low,seed
+Card charged after cancelling,"Dear team, Please fix this immediately. I cancelled the API but was still billed $75 this month.",billing,urgent,seed
+Error when exporting,"Hello support, I get an error message when I try to use the calendar sync. No rush on this. Thanks in advance.",technical,low,seed
+Sync not working,"Hello support, I get an error message when I try to use exports.",technical,high,seed
+Delete my account,"Hi team, The verification code for two-factor login is not reaching me. No rush on this.",account,low,seed
+Payment failed but money deducted,I cancelled the Android app but was still billed $19 this month. Please help.,billing,medium,seed
+Where is my refund,"I would like a refund of $49 for invoice 8841, it did not work for me. Thanks in advance.",refund,medium,seed
+Error when exporting,"Hi, Whenever I use user roles the app freezes and I have to restart it. Just a quick question. Thanks in advance.",technical,low,seed
+Two-factor code not arriving,"Dear team, The verification code for two-factor login is not reaching me. Thanks.",account,medium,seed
+Invoice does not match plan,URGENT: I cancelled the mobile app but was still billed $49 this month. Thanks.,billing,urgent,seed
+Sync not working,"Dear team, Production is down right now. I get an error message when I try to use exports. Please help.",technical,urgent,seed
+Feedback on the app,"Hi, It would be great if bulk import also worked on Edge. Just a quick question. Thanks in advance.",general,low,seed
+App keeps crashing,"Hello, the dashboard crashes every time I open the calendar sync on Safari.",technical,high,seed
+App keeps crashing,"Dear team, Whenever I use the search the app freezes and I have to restart it. Thanks.",technical,medium,seed
+Change the email on my account,The verification code for two-factor login is not reaching me. Thank you.,account,urgent,seed
+How does the team plan work,"Hello, It would be great if file uploads also worked on a Windows PC. Thanks in advance.",general,medium,seed
+App keeps crashing,"I get an error message when I try to use user roles. Not important, just curious. Thanks in advance.",technical,low,seed
+Question about my bill,"Hi team, The payment failed on the screen but Rs 12,000 left my account.",billing,medium,seed
+Refund request,"Hello support, I would like a refund of Rs 2,499 for order 55019, it did not work for me. Regards.",refund,medium,seed
+Cannot reset my password,"Dear team, The verification code for two-factor login is not reaching me.",account,medium,seed
+Cannot reset my password,"Hi team, I cannot log in to the Business plan and the reset email never arrives. No rush on this. Thanks.",account,low,seed
+Want my money back,I cancelled within the trial period and expect a full refund of $19. Thank you.,refund,medium,seed
+How does the team plan work,"Hello, Does the dashboard support the search? I could not find it in the docs. Please look at this as soon as possible. Please help.",general,high,seed
+Requesting a refund for order #31275,The refund for order #31275 still has not reached my card. It is affecting several of our users.,refund,high,seed
+Invoice does not match plan,"Dear team, Can you explain the extra charge of Rs 4,999 on order 77120? Not important, just curious. Regards.",billing,low,seed
+Payment failed but money deducted,"Dear team, My invoice shows Rs 899 but my plan should cost less. Regards.",billing,medium,seed
+Wrong amount on my invoice,"Dear team, Can you explain the extra charge of $9.99 on invoice 8841? Thank you.",billing,low,seed
+Invoice does not match plan,"Hello, I was charged $75 twice for the Business plan. Please check transaction 66402. Please help.",billing,medium,seed
+Cannot upload files,"Dear team, The page stays blank on Safari when I open the dashboard.",general,low,seed
+Feedback on the app,"Dear team, Production is down right now. Do you offer student or non-profit discounts? Thanks.",general,urgent,seed
+Cannot reset my password,I want to close my account and remove my data. Thanks.,account,low,seed
+How does the team plan work,Just wanted to say notifications has been really useful for our team. Regards.,general,high,seed
+Feedback on the app,"Hi team, Does the Business plan support notifications? I could not find it in the docs. It is affecting several of our users.",general,high,seed
+Requesting a refund for transaction 66402,You promised a refund for order 48213 two weeks ago and it has not arrived.,refund,medium,seed
+Cancel and refund please,"Please refund Rs 4,999, I was not satisfied with the Business plan. Thanks.",refund,medium,seed
+Locked out of my account,"Dear team, The verification code for two-factor login is not reaching me. Whenever you get a chance. Thanks in advance.",account,low,seed
+Cannot upload files,"Hello support, We are losing sales every minute. The page stays blank on my iPhone when I open the iOS app.",technical,urgent,seed
+Two-factor code not arriving,"Hello support, The verification code for two-factor login is not reaching me.",account,medium,seed
+Card charged after cancelling,"Hello, The payment failed on the screen but Rs 899 left my account. Thank you.",billing,low,seed
+Question about features,"Hello, How many users can we add on the starter plan? Regards.",general,low,seed
+Want my money back,"Hi, I would like a refund of $49 for order #90177, it did not work for me. Just a quick question.",refund,low,seed
+App keeps crashing,"Hello, the web portal crashes every time I open bulk import on Chrome. No rush on this. Thanks.",technical,low,seed
+Refund not received,"Dear team, I would like a refund of $49 for order #90177, it did not work for me. Thanks.",refund,medium,seed
+Update my profile name,"Hello, Please change the email address linked to my account.",account,urgent,seed
+Login page shows an error,"Hello support, I get an error message when I try to use reports. Thanks in advance.",technical,medium,seed
+Suggestion,"Hi team, Just wanted to say user roles has been really useful for our team. Please help.",general,high,seed
+Error when exporting,I get an error message when I try to use the calendar sync. Regards.,technical,medium,seed
+Requesting a refund for invoice 3312,"Dear team, Please refund Rs 4,999, I was not satisfied with the Business plan.",refund,medium,seed
+App keeps crashing,"Hello support, Whenever I use file uploads the app freezes and I have to restart it. Thank you.",technical,medium,seed
+Login page shows an error,"Hello, exports has stopped working since the last update on my iPhone. Thank you.",technical,medium,seed
+Invoice does not match plan,"Hi team, I cancelled the web portal but was still billed Rs 12,000 this month. Thank you.",billing,medium,seed
+Question about my bill,"Dear team, The payment failed on the screen but $9.99 left my account. Please look at this as soon as possible. Thanks in advance.",billing,high,seed
+Feedback on the app,"Hi, Do you offer student or non-profit discounts? This is blocking my work today. Regards.",general,high,seed
+Refund not received,"Dear team, You promised a refund for order 48213 two weeks ago and it has not arrived. Thanks.",refund,medium,seed
+Wrong amount on my invoice,"My invoice shows Rs 12,000 but my plan should cost less.",billing,medium,seed
+Do you offer a discount,"Hello, How many users can we add on the Android app? Thanks.",general,medium,seed
+Cancel and refund please,"Hello, I cancelled within the trial period and expect a full refund of $240. Regards.",refund,medium,seed
+Where is my refund,"Dear team, You promised a refund for order 77120 two weeks ago and it has not arrived.",refund,medium,seed
+App keeps crashing,Whenever I use exports the app freezes and I have to restart it. Thank you.,technical,medium,seed
+Wrong amount on my invoice,"Hello support, The payment failed on the screen but Rs 7,500 left my account. Thanks.",billing,low,seed
+Where is my refund,"Hi, Please refund $75, I was not satisfied with the desktop app. Thanks in advance.",refund,medium,seed
+Feedback on the app,"Hello, Does the web portal support the calendar sync? I could not find it in the docs. Thanks in advance.",general,medium,seed
+Feedback on the app,"Dear team, It would be great if the calendar sync also worked on Firefox. This is blocking my work today. Thank you.",general,high,seed
+Sync not working,"Hi team, The page stays blank on my iPhone when I open the desktop app. No rush on this.",technical,low,seed
+Requesting a refund for transaction 66402,"Dear team, I cancelled within the trial period and expect a full refund of $75.",refund,high,seed
+Where is my refund,The refund for transaction 66402 still has not reached my card.,refund,urgent,seed
+Partnership enquiry,"Hello support, Do you offer student or non-profit discounts? Regards.",general,medium,seed
+Suggestion,"Hi team, Does the web portal support file uploads? I could not find it in the docs. Whenever you get a chance. Please help.",general,low,seed
+Delete my account,"Dear team, The verification code for two-factor login is not reaching me. Please look at this as soon as possible.",account,high,seed
+Two-factor code not arriving,Please change the email address linked to my account. Thanks in advance.,account,medium,seed
+Feedback on the app,"Hello, How many users can we add on the API? Please help.",general,medium,seed
+Sync not working,Whenever I use the search the app freezes and I have to restart it. It is affecting several of our users.,technical,high,seed
+Refund request,"Hi, Please refund $9.99, I was not satisfied with the iOS app. Please look at this as soon as possible. Please help.",refund,high,seed
+Cancel and refund please,"Hello, I cancelled within the trial period and expect a full refund of Rs 899. Just a quick question.",refund,low,seed
+Sync not working,"Hi team, the dashboard crashes every time I open the chat widget on Chrome.",technical,medium,seed
+Error when exporting,"Hi team, PDF downloads has stopped working since the last update on my iPhone. No rush on this. Regards.",billing,low,seed
+Update my profile name,The verification code for two-factor login is not reaching me.,account,medium,seed
+Want my money back,"Hi team, The refund for transaction 66402 still has not reached my card. Regards.",refund,high,seed
+How does the team plan work,"Dear team, Just wanted to say invoices has been really useful for our team. Regards.",general,medium,seed
+Error when exporting,"Dear team, the web portal crashes every time I open invoices on Firefox. No rush on this. Please help.",technical,low,seed
+Payment failed but money deducted,"I cancelled the dashboard but was still billed Rs 7,500 this month. Thanks in advance.",billing,low,seed
+Requesting a refund for invoice 8841,You promised a refund for invoice 3312 two weeks ago and it has not arrived. Please look at this as soon as possible. Thanks in advance.,refund,high,seed
+Question about features,It would be great if user roles also worked on Safari.,general,medium,seed
+Login page shows an error,"Hi team, I get an error message when I try to use PDF downloads.",technical,low,seed
+Refund not received,"Hi, I cancelled within the trial period and expect a full refund of Rs 4,999.",refund,medium,seed
+Do you offer a discount,"Hello support, How many users can we add on our team workspace? Thanks.",general,medium,seed
+Wrong amount on my invoice,"Dear team, I was charged $120 twice for the web portal. Please check order 55019. Just a quick question. Thank you.",billing,low,seed
+Cancel and refund please,"Hi team, I cancelled within the trial period and expect a full refund of $9.99. Thanks in advance.",technical,medium,seed
+Charged twice this month,"I was charged Rs 7,500 twice for the dashboard. Please check order #90177. Thanks in advance.",billing,medium,seed
+Cancel and refund please,"Please refund $19, I was not satisfied with our team workspace. Regards.",refund,medium,seed
+Cancel and refund please,"Hi team, Please refund Rs 12,000, I was not satisfied with the Business plan. Thanks in advance.",refund,medium,seed
+Page not loading,"Hello, I get an error message when I try to use exports. Regards.",technical,high,seed
+Locked out of my account,"Hello, Please change the email address linked to my account. Please help.",account,medium,seed
+Page not loading,The page stays blank on my iPhone when I open the mobile app. I need this sorted today. Please help.,technical,high,seed
+Invoice does not match plan,"Hello support, The payment failed on the screen but Rs 4,999 left my account.",billing,medium,seed
+Cannot reset my password,"Hi, I want to close my account and remove my data. It is affecting several of our users. Please help.",account,high,seed
+Refund request,"Hello, The refund for order #90177 still has not reached my card. It is affecting several of our users.",refund,high,seed
+Charged twice this month,"Hello support, The payment failed on the screen but Rs 7,500 left my account.",billing,medium,seed
+Sync not working,our team workspace crashes every time I open the search on my Samsung phone. It is affecting several of our users. Please help.,technical,high,seed
+How does the team plan work,"Hello, Do you offer student or non-profit discounts?",general,medium,seed
+Where is my refund,"Hi, I cancelled within the trial period and expect a full refund of $240.",refund,medium,seed
+Update my profile name,"Hi, The verification code for two-factor login is not reaching me. Whenever you get a chance. Thanks.",account,low,seed
+Refund request,"Hi team, Please refund Rs 7,500, I was not satisfied with the mobile app. Not important, just curious. Thank you.",refund,low,seed
+Where is my refund,"I would like a refund of $19 for order #90177, it did not work for me. Thank you.",refund,medium,seed
+Page not loading,"Hello support, The page stays blank on Safari when I open the Business plan. Not important, just curious. Regards.",technical,low,seed
+App keeps crashing,"Hi team, exports has stopped working since the last update on a Windows PC. Please look at this as soon as possible. Thanks.",technical,high,seed
+Do you offer a discount,"Hi, It would be great if exports also worked on my Samsung phone.",general,medium,seed
+Suggestion,"Hi, Just wanted to say notifications has been really useful for our team. No rush on this. Thanks.",general,low,seed
+Locked out of my account,Please change the email address linked to my account. Thanks.,account,low,seed
+Feedback on the app,"Dear team, It would be great if invoices also worked on Safari. It is affecting several of our users. Please help.",general,high,seed
+Sync not working,"Hi, I get an error message when I try to use two-factor login. Just a quick question. Thanks in advance.",technical,low,seed
+Cancel and refund please,"Dear team, The refund for transaction 66402 still has not reached my card. Not important, just curious. Regards.",refund,low,seed
+Invoice does not match plan,"My invoice shows Rs 12,000 but my plan should cost less. Please help.",billing,high,seed
+Invoice does not match plan,"Hi, I cancelled the mobile app but was still billed $120 this month. I need this sorted today. Regards.",billing,high,seed
+Locked out of my account,"Dear team, We are losing sales every minute. I want to close my account and remove my data.",account,urgent,seed
+Delete my account,"Hi team, The verification code for two-factor login is not reaching me. Thanks.",technical,medium,seed
+Wrong amount on my invoice,"Dear team, I cancelled the starter plan but was still billed $240 this month. Please help.",billing,medium,seed
+How does the team plan work,Do you offer student or non-profit discounts? Please help.,general,medium,seed
+Locked out of my account,The verification code for two-factor login is not reaching me. It is affecting several of our users.,account,high,seed
+Question about features,"Dear team, Do you offer student or non-profit discounts?",general,medium,seed
+Payment failed but money deducted,"Dear team, The payment failed on the screen but Rs 2,499 left my account. Thank you.",billing,medium,seed
+Question about my bill,"Hi team, I was charged Rs 12,000 twice for the Business plan. Please check order #31275. Thanks.",billing,medium,seed
+Refund not received,Production is down right now. The refund for order #90177 still has not reached my card.,refund,urgent,seed
+Sync not working,"Hello, I get an error message when I try to use invoices. Thanks in advance.",technical,medium,seed
+Two-factor code not arriving,"Hello, My account got locked after a few login attempts on Chrome.",account,medium,seed
+Locked out of my account,"Dear team, Please change the email address linked to my account. Thanks.",account,medium,seed
+Feedback on the app,"Hello support, How many users can we add on the Pro plan? Just a quick question.",general,low,seed
+Cannot reset my password,"Hello, The verification code for two-factor login is not reaching me. This is blocking my work today. Please help.",general,high,seed
+Change the email on my account,"Hi, Please change the email address linked to my account. Regards.",account,medium,seed
+Login page shows an error,the desktop app crashes every time I open invoices on my MacBook. Thank you.,technical,low,seed
+Card charged after cancelling,I cancelled the dashboard but was still billed $19 this month. Regards.,billing,medium,seed
+Cancel and refund please,"Hello support, I cancelled within the trial period and expect a full refund of Rs 899. Regards.",refund,medium,seed
+Error when exporting,"Hello support, The page stays blank on my iPhone when I open the web portal. Thanks.",technical,medium,seed
+Sync not working,"Hi, The page stays blank on Edge when I open the starter plan.",technical,high,seed
+Page not loading,"Dear team, The page stays blank on Firefox when I open the Business plan. Please look at this as soon as possible. Please help.",technical,high,seed
+Payment failed but money deducted,"Hi team, My invoice shows $120 but my plan should cost less. Please look at this as soon as possible. Regards.",billing,high,seed
+Refund not received,"Hello support, The refund for order 77120 still has not reached my card. Thanks in advance.",refund,medium,seed
+Page not loading,"Dear team, This is urgent, our whole team is blocked. our team workspace crashes every time I open notifications on Firefox. Thank you.",technical,urgent,seed
+Update my profile name,"Dear team, I cannot log in to the API and the reset email never arrives. Whenever you get a chance.",account,low,seed
+Feedback on the app,Does the dashboard support reports? I could not find it in the docs. Thank you.,general,medium,seed
+Charged twice this month,"Hi, Please fix this immediately. I was charged Rs 7,500 twice for the Business plan. Please check order #90177. Thanks in advance.",billing,urgent,seed
+Card charged after cancelling,"Dear team, I cancelled the Business plan but was still billed Rs 4,999 this month. Thanks.",billing,medium,seed
+Partnership enquiry,"Hi team, It would be great if two-factor login also worked on my iPad. Thank you.",general,medium,seed
+Question about my bill,"Hi, I cancelled our team workspace but was still billed Rs 2,499 this month.",billing,low,seed
+Suggestion,"Hello, Do you offer student or non-profit discounts? Just a quick question. Thanks.",general,low,seed
+Question about my bill,"Hello, Can you explain the extra charge of $49 on order 55019? Not important, just curious.",billing,low,seed
+Question about my bill,"Hi team, We are losing sales every minute. I was charged $120 twice for the web portal. Please check order 77120. Thanks.",billing,urgent,seed
+Do you offer a discount,Just wanted to say notifications has been really useful for our team.,general,medium,seed
+Card charged after cancelling,"Hello support, The payment failed on the screen but Rs 1,250 left my account.",billing,low,seed
+Refund request,"I would like a refund of $19 for transaction 66402, it did not work for me.",refund,medium,seed
+Error when exporting,"Dear team, the mobile app crashes every time I open exports on my iPhone. Not important, just curious.",technical,low,seed
+How does the team plan work,Does the Android app support exports? I could not find it in the docs. Just a quick question. Thanks in advance.,general,low,seed
+Refund not received,"I cancelled within the trial period and expect a full refund of Rs 7,500. Not important, just curious.",refund,low,seed
+Error when exporting,"Hello support, I get an error message when I try to use file uploads. I need this sorted today.",technical,high,seed
+Partnership enquiry,Does the Business plan support two-factor login? I could not find it in the docs. Thank you.,general,high,seed
+Error when exporting,"Hi team, I get an error message when I try to use reports. Thanks.",technical,low,seed
+Refund request,"Hello support, Production is down right now. Please refund $75, I was not satisfied with the API. Please help.",refund,urgent,seed
+Feedback on the app,We are losing sales every minute. Just wanted to say notifications has been really useful for our team.,general,urgent,seed
+Feedback on the app,"Hello, Do you offer student or non-profit discounts? I need this sorted today.",general,high,seed
+Update my profile name,"Hi team, I cannot log in to the web portal and the reset email never arrives. Thanks in advance.",account,high,seed
+Partnership enquiry,"Dear team, Just wanted to say the chat widget has been really useful for our team. Thanks.",general,low,seed
+Error when exporting,"Hi, the Android app crashes every time I open the chat widget on Edge. Whenever you get a chance. Thanks.",technical,low,seed
+Cancel and refund please,"Please refund $49, I was not satisfied with the desktop app. Whenever you get a chance. Regards.",refund,low,seed
+Cannot reset my password,Please change the email address linked to my account. Thanks in advance.,account,medium,seed
+Where is my refund,"Hi, I cancelled within the trial period and expect a full refund of $9.99. Please help.",refund,medium,seed
+Sync not working,"Dear team, invoices has stopped working since the last update on my MacBook. Thanks in advance.",technical,medium,seed
+How does the team plan work,"Hello support, It would be great if the calendar sync also worked on my iPhone.",general,medium,seed
+Charged twice this month,"Dear team, Can you explain the extra charge of Rs 4,999 on order 48213? Please help.",billing,high,seed
+Suggestion,"Dear team, How many users can we add on the dashboard? I need this sorted today. Regards.",general,high,seed
+Requesting a refund for transaction 66402,"Hello support, I cancelled within the trial period and expect a full refund of Rs 4,999. Thank you.",refund,urgent,seed
+Cannot upload files,"Hi, The page stays blank on Edge when I open the desktop app. Thank you.",technical,high,seed
+Charged twice this month,"The payment failed on the screen but Rs 12,000 left my account. Regards.",billing,low,seed
+Where is my refund,"Hello support, I cancelled within the trial period and expect a full refund of Rs 7,500. Please help.",refund,medium,seed
+Card charged after cancelling,"Hello, My invoice shows Rs 12,000 but my plan should cost less. This is blocking my work today. Thanks.",billing,high,seed
+Delete my account,"Hello, Production is down right now. The verification code for two-factor login is not reaching me. Please help.",refund,urgent,seed
+Partnership enquiry,"Hi, Does the Business plan support reports? I could not find it in the docs. Please look at this as soon as possible.",general,high,seed
+Two-factor code not arriving,"Hello, I cannot log in to the Business plan and the reset email never arrives. Thanks.",account,medium,seed
+Want my money back,"Hi team, You promised a refund for order 48213 two weeks ago and it has not arrived. Please look at this as soon as possible.",refund,high,seed
+How does the team plan work,Do you offer student or non-profit discounts? I need this sorted today. Thanks in advance.,general,high,seed
+Update my profile name,"Hi, Please change the email address linked to my account. Thank you.",account,medium,seed
+Question about my bill,"Hello support, I cancelled my account but was still billed $120 this month. Not important, just curious. Regards.",billing,low,seed
+Card charged after cancelling,"I cancelled the starter plan but was still billed Rs 7,500 this month. No rush on this.",billing,low,seed
+Partnership enquiry,"Dear team, Do you offer student or non-profit discounts? Please look at this as soon as possible. Thanks.",general,high,seed
+Refund not received,"Hello support, I would like a refund of $75 for order #90177, it did not work for me.",refund,medium,seed
+Charged twice this month,I was charged $75 twice for the mobile app. Please check transaction 66402. No rush on this.,billing,low,seed
+Update my profile name,My account got locked after a few login attempts on Chrome.,technical,medium,seed
+Question about features,"Hi, Just wanted to say the analytics page has been really useful for our team.",general,high,seed
+Question about my bill,My invoice shows $9.99 but my plan should cost less.,billing,medium,seed
+Suggestion,"Hello, Do you offer student or non-profit discounts?",general,high,seed
+Do you offer a discount,"Dear team, Just wanted to say file uploads has been really useful for our team.",general,medium,seed
+Change the email on my account,"Hello, I cannot log in to the dashboard and the reset email never arrives. Thanks.",account,high,seed
+Page not loading,"Hello support, Production is down right now. the Android app crashes every time I open the analytics page on Chrome. Please help.",technical,urgent,seed
+Wrong amount on my invoice,"Hello support, I cancelled our team workspace but was still billed $9.99 this month. Please help.",billing,medium,seed
+Cancel and refund please,"Hi team, You promised a refund for order 55019 two weeks ago and it has not arrived.",refund,high,seed
+Requesting a refund for invoice 3312,"Dear team, I would like a refund of Rs 12,000 for order #31275, it did not work for me. Just a quick question. Please help.",refund,low,seed
+Refund request,"Hello support, I cancelled within the trial period and expect a full refund of Rs 2,499. Regards.",refund,medium,seed
+Locked out of my account,I cannot log in to our team workspace and the reset email never arrives. Whenever you get a chance. Thanks in advance.,account,low,seed
+Locked out of my account,"Dear team, My account got locked after a few login attempts on my iPad.",account,high,seed
+Cancel and refund please,I cancelled within the trial period and expect a full refund of Rs 899. Just a quick question. Please help.,refund,low,seed
+Two-factor code not arriving,I want to close my account and remove my data.,account,medium,seed
+Charged twice this month,"Hello support, I cancelled my account but was still billed Rs 2,499 this month.",billing,medium,seed
+Partnership enquiry,"Hi, It would be great if the chat widget also worked on my MacBook. Regards.",general,high,seed
+Cannot upload files,I get an error message when I try to use exports. Thanks.,technical,medium,seed
+Update my profile name,"Hi, The verification code for two-factor login is not reaching me. It is affecting several of our users. Thanks.",account,high,seed
+Feedback on the app,"Hello, It would be great if bulk import also worked on my laptop. Thanks.",billing,medium,seed
+Want my money back,"Hi, Please refund Rs 899, I was not satisfied with the iOS app. I need this sorted today.",refund,high,seed
+Sync not working,Whenever I use the analytics page the app freezes and I have to restart it. Please help.,technical,medium,seed
+Update my profile name,"Dear team, Please change the email address linked to my account. Thank you.",account,low,seed
+Where is my refund,"Hi team, The refund for invoice 8841 still has not reached my card. It is affecting several of our users.",refund,high,seed
+Refund request,"This is urgent, our whole team is blocked. Please refund Rs 899, I was not satisfied with the Pro plan.",refund,urgent,seed
+Sync not working,the Android app crashes every time I open the search on Chrome.,technical,medium,seed
+Do you offer a discount,Does my account support the calendar sync? I could not find it in the docs. Thanks.,general,medium,seed

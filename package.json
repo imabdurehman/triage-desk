@@ -1,12 +1,17 @@
 {
   "name": "triage-desk",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Support-ticket triage with ML-based category and priority routing",
   "workspaces": ["server", "client"],
   "scripts": {
     "dev:server": "npm run dev -w server",
-    "test:server": "npm test -w server"
+    "dev:client": "npm run dev -w client",
+    "test:server": "npm test -w server",
+    "lint:client": "npm run lint -w client",
+    "build:client": "npm run build -w client",
+    "seed:demo": "npm run seed:demo -w server",
+    "seed:demo:reset": "npm run seed:demo:reset -w server"
   },
-  "engines": { "node": ">=20" }
+  "engines": { "node": "^20.19.0 || >=22.12.0" }
 }

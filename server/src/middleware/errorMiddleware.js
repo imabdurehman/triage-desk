@@ -7,7 +7,6 @@ export function notFound(req, _res, next) {
 }
 
 // Converts every error - ours, Mongoose's, JSON parse errors - into the contract shape.
-// eslint-disable-next-line no-unused-vars
 export function errorHandler(err, req, res, _next) {
   let status = 500;
   let code = 'INTERNAL_ERROR';
@@ -29,6 +28,13 @@ export function errorHandler(err, req, res, _next) {
     status = 409;
     code = 'DUPLICATE';
     message = `${Object.keys(err.keyValue ?? {}).join(', ') || 'Value'} already exists`;
+  } else if (err?.name === 'MulterError') {
+    status = 400;
+    code = 'VALIDATION_ERROR';
+    message = {
+      LIMIT_FILE_SIZE: 'Each image must be 2 MB or smaller',
+      LIMIT_FILE_COUNT: 'Upload at most 3 images at a time',
+    }[err.code] ?? 'Upload images in the "images" field';
   } else if (err?.type === 'entity.parse.failed') {
     status = 400;
     code = 'INVALID_JSON';

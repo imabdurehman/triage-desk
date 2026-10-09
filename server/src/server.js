@@ -1,6 +1,7 @@
 import { createApp } from './app.js';
 import { connectDB, disconnectDB } from './config/db.js';
 import { env } from './config/env.js';
+import { startScheduler, stopScheduler } from './jobs/index.js';
 
 async function start() {
   await connectDB();
@@ -8,10 +9,12 @@ async function start() {
   const server = app.listen(env.port, () => {
     console.log(`[server] listening on http://localhost:${env.port}  (${env.nodeEnv})`);
   });
+  if (env.enableScheduler) startScheduler();
 
   // Close cleanly so in-flight requests finish and Mongo is released.
   const shutdown = (signal) => {
     console.log(`[server] ${signal} received, shutting down`);
+    stopScheduler();
     server.close(async () => {
       await disconnectDB();
       process.exit(0);

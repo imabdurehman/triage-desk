@@ -15,14 +15,23 @@ dist/
 build/
 coverage/
 .pytest_cache/
+.ruff_cache/
 
 # ML artefacts - never commit trained binaries or raw data
 ml-service/models/versions/*
 !ml-service/models/versions/.gitkeep
 ml-service/models/current/*
 !ml-service/models/current/.gitkeep
+ml-service/models/runs.json
 ml-service/data/raw/*
 !ml-service/data/raw/.gitkeep
+# Processed data may contain customer text and is rebuilt locally.
+ml-service/data/processed/*
+!ml-service/data/processed/.gitkeep
+# data/test/ IS committed: the whole team must score against the same frozen rows.
+
+# files customers attach to tickets
+server/uploads/
 
 # OS / editor
 .DS_Store

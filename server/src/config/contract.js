@@ -13,7 +13,9 @@ export const ROLES = Object.freeze([...contract.roles]);
 export const CATEGORIES = Object.freeze([...contract.categories]);
 export const PRIORITIES = Object.freeze([...contract.priorities]);
 export const STATUSES = Object.freeze([...contract.statuses]);
-export const STATUS_TRANSITIONS = Object.freeze(contract.statusTransitions);
+/** Every status that still needs work: all but resolved and closed. */
+export const ACTIVE_STATUSES = Object.freeze(STATUSES.filter((s) => !['resolved', 'closed'].includes(s)));
+const STATUS_TRANSITIONS = Object.freeze(contract.statusTransitions);
 export const SLA_HOURS = Object.freeze(contract.slaHours);
 export const ML_CONFIG = Object.freeze(contract.ml);
 
